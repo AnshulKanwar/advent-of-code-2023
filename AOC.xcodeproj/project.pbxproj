@@ -40,10 +40,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8819FB42B076907003EFC7B /* Puzzles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Puzzles;
+			sourceTree = "<group>";
+		};
+		F8819FB92B076994003EFC7B /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
 		F8C8A2E52B07547700AE925C = {
 			isa = PBXGroup;
 			children = (
 				F8C8A2F02B07547700AE925C /* AOC */,
+				F8819FB92B076994003EFC7B /* Inputs */,
 				F8C8A2EF2B07547700AE925C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +76,7 @@
 			children = (
 				F8C8A2F12B07547700AE925C /* main.swift */,
 				F8C8A2F92B07556400AE925C /* Utils.swift */,
+				F8819FB42B076907003EFC7B /* Puzzles */,
 			);
 			path = AOC;
 			sourceTree = "<group>";
