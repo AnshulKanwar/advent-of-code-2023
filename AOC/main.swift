@@ -7,3 +7,4 @@
 
 let day2 = Day2(inputStr: readInput(forDay: 2))
 print(day2.part1())
+print(day2.part2())

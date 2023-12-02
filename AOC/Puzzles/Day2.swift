@@ -30,7 +30,7 @@ final class Day2: Puzzle {
             .map {
                 ($0[0], $0[1])
             }
-
+        
         let dict = Dictionary(uniqueKeysWithValues: games)
             .mapValues {
                 $0.split(separator: ";")
@@ -71,30 +71,27 @@ final class Day2: Puzzle {
             var isPossible = true
             
         outerloop: for cubes in result {
-                for match in cubes.matches(of: cubesMatcher) {
-                    let nCubes = Int(match.1)!
-                    let color = Cube(rawValue: String(match.2))!
-                    
-                    switch color {
-                    case .red:
-                        isPossible = nCubes <= 12
-                    case .green:
-                        isPossible = nCubes <= 13
-                    case .blue:
-                        isPossible = nCubes <= 14
-                    }
-                    
-                    if !isPossible {
-                        break outerloop
-                    }
+            for match in cubes.matches(of: cubesMatcher) {
+                let nCubes = Int(match.1)!
+                let color = Cube(rawValue: String(match.2))!
+                
+                switch color {
+                case .red:
+                    isPossible = nCubes <= 12
+                case .green:
+                    isPossible = nCubes <= 13
+                case .blue:
+                    isPossible = nCubes <= 14
+                }
+                
+                if !isPossible {
+                    break outerloop
                 }
             }
+        }
             
             if isPossible {
-                print("Game \(gameId) is possible")
                 sum += gameId
-            } else {
-                print("Game \(gameId) is not possible")
             }
         }
         
@@ -102,6 +99,48 @@ final class Day2: Puzzle {
     }
     
     func part2() -> Any {
-        fatalError("Not Implemented")
+        let cubesMatcher = Regex {
+            Capture {
+                OneOrMore(.digit)
+            }
+            CharacterClass.whitespace
+            Capture {
+                ChoiceOf {
+                    "red"
+                    "green"
+                    "blue"
+                }
+            }
+        }
+        
+        var sum = 0
+        
+        for (_, result) in input {
+            var minRed = 0
+            var minGreen = 0
+            var minBlue = 0
+            
+            for cubes in result {
+                for match in cubes.matches(of: cubesMatcher) {
+                    let nCubes = Int(match.1)!
+                    let color = Cube(rawValue: String(match.2))!
+                        
+                    switch color {
+                    case .red:
+                        minRed = max(minRed, nCubes)
+                    case .green:
+                        minGreen = max(minGreen, nCubes)
+                    case .blue:
+                        minBlue = max(minBlue, nCubes)
+                    }
+                }
+            }
+            
+            let power = minRed * minGreen * minBlue
+            
+            sum += power
+        }
+        
+        return sum
     }
 }
