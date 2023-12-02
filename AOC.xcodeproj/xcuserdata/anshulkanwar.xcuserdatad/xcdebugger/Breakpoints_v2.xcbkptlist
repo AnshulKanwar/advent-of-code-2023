@@ -3,4 +3,102 @@
    uuid = "D3DF7C13-8216-4902-BC17-FBA839FE6075"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D995DF0E-0FB5-4FB7-B227-E581E458C052"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AOC/Puzzles/Day2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "part1()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D995DF0E-0FB5-4FB7-B227-E581E458C052 - 61cea9a26749e9bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AOC.Day2.part1() -&gt; Any"
+                  moduleName = "AOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anshulkanwar/Developer/swift/AOC/AOC/Puzzles/Day2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1216">
+               </Location>
+               <Location
+                  uuid = "D995DF0E-0FB5-4FB7-B227-E581E458C052 - 61cea9a26749e9bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AOC.Day2.part1() -&gt; Any"
+                  moduleName = "AOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anshulkanwar/Developer/swift/AOC/AOC/Puzzles/Day2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48118828-CE9E-4788-8DC7-35EADC80D573"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AOC/Puzzles/Day2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "part1()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "48118828-CE9E-4788-8DC7-35EADC80D573 - 61cea9a26749eb22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AOC.Day2.part1() -&gt; Any"
+                  moduleName = "AOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anshulkanwar/Developer/swift/AOC/AOC/Puzzles/Day2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "2848">
+               </Location>
+               <Location
+                  uuid = "48118828-CE9E-4788-8DC7-35EADC80D573 - 61cea9a26749eb22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AOC.Day2.part1() -&gt; Any"
+                  moduleName = "AOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anshulkanwar/Developer/swift/AOC/AOC/Puzzles/Day2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "2864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

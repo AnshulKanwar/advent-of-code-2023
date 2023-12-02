@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F85B449E2B19C75D008C19CA /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B449D2B19C75D008C19CA /* Day1.swift */; };
+		F87332052B1B2021006D8B7F /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87332042B1B2021006D8B7F /* Day2.swift */; };
 		F8C8A2F22B07547700AE925C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A2F12B07547700AE925C /* main.swift */; };
 		F8C8A2FA2B07556400AE925C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8A2F92B07556400AE925C /* Utils.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		F85B449C2B19C744008C19CA /* Day1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day1.txt; sourceTree = "<group>"; };
 		F85B449D2B19C75D008C19CA /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		F87332042B1B2021006D8B7F /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		F87332062B1B2088006D8B7F /* Day2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day2.txt; sourceTree = "<group>"; };
 		F8C8A2EE2B07547700AE925C /* AOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C8A2F12B07547700AE925C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F8C8A2F92B07556400AE925C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				F85B449D2B19C75D008C19CA /* Day1.swift */,
+				F87332042B1B2021006D8B7F /* Day2.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -55,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F85B449C2B19C744008C19CA /* Day1.txt */,
+				F87332062B1B2088006D8B7F /* Day2.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C8A2F22B07547700AE925C /* main.swift in Sources */,
+				F87332052B1B2021006D8B7F /* Day2.swift in Sources */,
 				F85B449E2B19C75D008C19CA /* Day1.swift in Sources */,
 				F8C8A2FA2B07556400AE925C /* Utils.swift in Sources */,
 			);
